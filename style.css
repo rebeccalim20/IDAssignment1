@@ -68,7 +68,6 @@ p{
 .flex-video{
   display: flex;
   flex-direction: column;
-  font-size: 30px;
   text-align: center;
   margin: 0 auto;
   display: block;
@@ -147,9 +146,12 @@ img.footer{
 @media only screen and (max-width: 1127px) {
 
   .flex-video{
-    display: flex;
-    flex-direction: row;
-    height:700px;
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   margin: 0 auto;
+   display: block;
+   height:700px;
 
   }
  
