@@ -6,6 +6,7 @@
 
 p{
   font-family: 'Proza Libre', sans-serif;
+  font-size: 15px;
 }
 
 
@@ -53,6 +54,7 @@ h1{
   padding: 18px;
   color:white;
  }
+ 
  
  h1.intro ,h2{
    color: black;
@@ -102,8 +104,7 @@ img {
 p{
  color: black;
  text-align: center;
- font-size: 30px;
-
+ font-size: 25px;
 }
 
 
@@ -196,7 +197,17 @@ img.footer{
   height:500px;
 }
 
+.flex-about {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
 
+div {
+  padding: 5px;
+  margin: 10px 20px 10px 20px;
+}
 
 
 
@@ -217,6 +228,8 @@ img.footer{
   img {
     height: 414px;
   }
+
+
  
 }
 
@@ -232,6 +245,10 @@ img.footer{
     left: 17%;
     top:20%;
    }
+
+   .flex-about {
+    flex-direction: column;
+  }
 
    form {
     height: 314px;
