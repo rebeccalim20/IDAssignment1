@@ -4,22 +4,66 @@
 }
 
 
+p{
+  font-family: 'Proza Libre', sans-serif;
+}
+
+
+h1 ,h2,nav , a 
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+input[type="email"] {
+  /* font-family: 'Proza Libre', sans-serif; */
+  font-size: 20px;
+}
+
+
+::placeholder {
+  color: rgb(182, 182, 182);
+  font-size: 18px;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+/* Chrome/Opera/Safari */
+
+::-webkit-input-placeholder {
+  color: rgb(182, 182, 182);
+}
+
+/* Firefox 19+ */
+
+::-moz-placeholder {
+  color: rgb(182, 182, 182);
+  font-size: 13px;
+}
+
+/* IE 10+ */
+
+:-ms-input-placeholder {
+  color: rgb(182, 182, 182);
+  font-size: 13px;
+}
+
 
 h1{
- text-align: center;
- padding: 18px;
- color:white;
-}
-
-h1.intro {
-  color: black;
   text-align: center;
-}
+  padding: 18px;
+  color:white;
+ }
+ 
+ h1.intro ,h2{
+   color: black;
+   text-align: center;
+ }
 
 
 header{
  background-color: rgb(0, 0, 0);
  height: 70px;
+ padding:8px;
 }
 
 nav{
@@ -91,8 +135,19 @@ form{
  display: block;
  margin-left: auto;
  margin-right: auto;
+ height: 30px;
+ width: 60px;
+}
+
+
+p.about{
+  text-align: center;
+  font-size: 20px;
 
 }
+
+
+
 
 
 
@@ -100,6 +155,7 @@ footer{
   background-color: rgb(0, 0, 0);
   height: 130px;
   position: relative;
+  /* width: 102%; */
  }
  
 p.footer{
@@ -123,6 +179,7 @@ img.footer{
   position: absolute;
   display: flex;
   flex-direction: row;
+  text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
   left:45%;
@@ -152,19 +209,19 @@ img.footer{
    display: flex;
    flex-direction: row;
    text-align: center;
-   margin: 0 auto;
+   /* margin: 0 auto; */
    display: block;
    height:700px;
-
   }
 
   img {
-    height: 200px;
-}
+    height: 414px;
+  }
  
 }
 
-@media only screen and (max-width: 540px) {
+
+@media only screen and (max-width: 670px) {
 
   .flex-video iframe, .flex-video object, .flex-video embed {
     width: 97%;
@@ -177,9 +234,65 @@ img.footer{
    }
 
    form {
-    background-color: #303030;
     height: 314px;
   }
+ 
+}
+
+
+@media only screen and (max-width: 639px) {
+
+  img {
+    height: 311px;
+  }
+ 
+}
+
+@media only screen and (max-width: 399px) {
+
+  img {
+    height: 265px;
+  }
+
+  form {
+    height: 399px;
+  }
+ 
+}
+
+@media only screen and (max-width: 340px) {
+
+  nav{
+    height: 60px;
+   }
+
+}
+
+
+
+@media only screen and (max-width: 300px) {
+
+
+  .flex-video {
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   display: block;
+   height: 368px;
+}
+   footer {
+  height: 130px;
+}
+
+.flex-container {
+  left: 17%;
+}
+
+img.footer {
+  width: 30px;
+  height: 30px;
+}
+
  
 }
 
