@@ -4,16 +4,15 @@
 }
 
 
-p{
+p , label{
   font-family: 'Proza Libre', sans-serif;
-  font-size: 15px;
 }
-
 
 h1 ,h2,nav , a 
 {
   font-family: 'Open Sans', sans-serif;
 }
+
 
 
 input[type="email"] {
@@ -82,6 +81,22 @@ a{
 }
 
 
+label 
+{
+  font-size:20px;
+  color: white;
+  padding: 19px 10px 10px 10px;
+  /* text-align: center; */
+}
+
+p{
+  font-size: 15px;;
+}
+
+
+
+
+
 #top-href{
   margin-left: 20px;
 
@@ -110,6 +125,10 @@ p{
 
 
 
+
+
+
+
 p.form{
  color: rgb(255, 255, 255);
  text-align: center;
@@ -120,16 +139,16 @@ p.form{
 
 form{
  background-color:#303030;
- height:250px;
-
+ height: 476px;
 }
 
 #inputbox{
- height:30px;
+ height: 52px;
+ width: 237px;
 }
 #messageinputbox{
- height:50px;
- width: 300px;
+ height: 148px;
+ width: 505px;
 }
 
 #submit{
@@ -139,6 +158,29 @@ form{
  height: 30px;
  width: 60px;
 }
+
+.wrapper{
+ display: block;
+
+}
+
+.form-align
+{
+  padding: 10px 10px 10px 10px;
+  /* text-align: center; */
+  display: flex;
+  /* justify-content: flex-end; */
+  /* padding: .5em; */
+}
+
+.form-align > label {
+  /* padding: 0.5em 1em 0.5em 0; */
+  flex: 1;
+}
+.form-align > input {
+  flex: 2;
+}
+
 
 
 p.about{
@@ -204,6 +246,8 @@ img.footer{
   text-align: center;
 }
 
+
+
 div {
   padding: 5px;
   margin: 10px 20px 10px 20px;
@@ -251,7 +295,7 @@ div {
   }
 
    form {
-    height: 314px;
+    height: 473px;
   }
  
 }
@@ -272,7 +316,7 @@ div {
   }
 
   form {
-    height: 399px;
+    height: 540px;
   }
  
 }
@@ -282,6 +326,9 @@ div {
   nav{
     height: 60px;
    }
+  label{
+    font-size:12px;
+  }
 
 }
 
@@ -310,6 +357,21 @@ img.footer {
   height: 30px;
 }
 
+img{
+  /* width: 229px; */
+  /* height: 275px; */
+}
+
+img.home {
+  height: 198px;
+  width: 236px;
+ }
+
+
+#inputbox {
+    height: 52px;
+    width: 191px;
+}
  
 }
 

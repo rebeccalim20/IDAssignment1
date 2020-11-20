@@ -23,7 +23,7 @@ https://en.wikipedia.org/wiki/Amazing_(Westlife_song)
      </header>
  
      <nav>
-     <a id ="top-href" href="#">About</a>
+     <a id ="top-href" href="#">Home</a>
      <a id ="top-href" href="booknow.html" style="text-decoration: none;">Book Now</a>
      <a id ="top-href" href="video.html" style="text-decoration: none;">Video</a>
      <a id ="top-href" href="aboutus.html" style="text-decoration: none;">About Us</a>
@@ -31,7 +31,7 @@ https://en.wikipedia.org/wiki/Amazing_(Westlife_song)
  
      <div class="first-section">
  
-     <img src="https://upload.wikimedia.org/wikipedia/en/8/8c/Westlife_Amazing.jpg" alt="alternatetext">
+     <img class="home" src="https://upload.wikimedia.org/wikipedia/en/8/8c/Westlife_Amazing.jpg" alt="alternatetext">
      
      <p><b>Amazing Album</b></p>
  
@@ -39,16 +39,35 @@ https://en.wikipedia.org/wiki/Amazing_(Westlife_song)
  
      <form>
        <h1>Contact Us</h1>
-       
- 
-       <p class="form">Name: <input type="text" id="inputbox" name="inputbox" placeholder="Your name" required>
- 
-       Your Email: <input type="email" id="inputbox" name="inputbox" placeholder="Email" required>
- 
-       Message : <input type="text" id="messageinputbox" name="inputbox" placeholder="Message">
-            
-       </p>
-       <input type="submit" id="submit">
+
+
+       <ul class="wrapper">
+         
+        <li class="form-align">
+          <label for="name">Name :</label>
+          <input type="text" id="inputbox" placeholder="Your name" required>
+        </li>
+
+        
+        <li class="form-align">
+          <label for="email">Email Address :</label>
+          <input type="email" id="inputbox" placeholder="Email" required>
+        </li>
+        
+        <li class="form-align">
+          <label for="Message">Message :</label>
+          <input type="text" id="messageinputbox" placeholder="Message" required>
+        </li>
+
+        <li class="form-row"></li>
+          
+        </li>
+
+      </ul>
+
+      <button type="submit" id="submit">Submit</button>
+  
+    
       
      </form>
  

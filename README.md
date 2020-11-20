@@ -26,6 +26,8 @@ Code from https://www.w3schools.com/,
 
 https://www.digitalocean.com/community/tutorials/css-styling-placeholder-text
 
+contact form : https://www.quackit.com/html/html_editors/scratchpad/?example=/css/flexbox/tutorial/align_form_elements_with_flexbox_example_2
+
 some design 
 and reference from
 https://www.westlife.com/
