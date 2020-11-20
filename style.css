@@ -4,7 +4,7 @@
 }
 
 
-p , label{
+p , label,div{
   font-family: 'Proza Libre', sans-serif;
 }
 
@@ -58,6 +58,7 @@ h1{
  h1.intro ,h2{
    color: black;
    text-align: center;
+   margin: 12px;
  }
 
 
@@ -89,8 +90,8 @@ label
   /* text-align: center; */
 }
 
-p{
-  font-size: 15px;;
+p ,td{
+  font-size: 22px;
 }
 
 
@@ -104,10 +105,13 @@ p{
 
 .first-section {
  
- color: white;
- margin: 20px;
- padding: 20px;
-
+color: white;
+ 
+margin: 20px;
+ 
+padding: 20px;
+ 
+flex-direction: column;
 }
 img {
  display: block;
@@ -121,11 +125,6 @@ p{
  text-align: center;
  font-size: 25px;
 }
-
-
-
-
-
 
 
 
@@ -164,6 +163,7 @@ form{
 
 }
 
+
 .form-align
 {
   padding: 10px 10px 10px 10px;
@@ -189,6 +189,9 @@ p.about{
 
 }
 
+section{
+  height: 815px;
+}
 
 
 
@@ -246,12 +249,70 @@ img.footer{
   text-align: center;
 }
 
+div.aboutus {
+  padding: 5px;
+  margin: 10px 45px 13px 42px;
+}
+
 
 
 div {
-  padding: 5px;
-  margin: 10px 20px 10px 20px;
+  padding: 4px;
+  margin: 11px 93px 21px 40px;
 }
+
+
+
+.flex-book {
+  display: flex;
+  flex-direction: row;
+}
+
+#booknow{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 35px;
+  width: 84px;
+  color:white;
+  background-color: black;
+  border: none;
+ }
+
+
+ td 
+ {
+   text-align: left;
+   padding: 10px 61px 10px 10px;
+   margin: 16px 38px 60px 69px;
+ }
+
+
+ tr
+ {
+   text-align: center;
+   padding: 10px 10px 10px 10px;
+   margin: 24px 50px 75px 100px;
+ }
+
+ 
+ tbody
+ {
+   /* text-align: center; */
+   padding: 10px 10px 10px 10px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ table
+ {
+   
+   margin-left: auto; 
+   margin-right: auto;
+ }
+
+
+
 
 
 
@@ -277,6 +338,37 @@ div {
  
 }
 
+@media only screen and (max-width: 816px) {
+
+  td {
+    text-align: center;
+    padding: 10px 37px 10px 10px;
+    margin: 1px 0px 13px 13px;
+    display: block;
+    flex-direction: row;
+  }
+
+  section
+  {
+    height: 1110px;
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+
+   .flex-about {
+    flex-direction: column;
+  }
+
+}
+
+
 
 @media only screen and (max-width: 670px) {
 
@@ -290,9 +382,7 @@ div {
     top:20%;
    }
 
-   .flex-about {
-    flex-direction: column;
-  }
+ 
 
    form {
     height: 473px;
@@ -337,6 +427,10 @@ div {
 @media only screen and (max-width: 300px) {
 
 
+  section{
+    height: 1200px;
+  }
+
   .flex-video {
    display: flex;
    flex-direction: row;
@@ -357,10 +451,6 @@ img.footer {
   height: 30px;
 }
 
-img{
-  /* width: 229px; */
-  /* height: 275px; */
-}
 
 img.home {
   height: 198px;
