@@ -3,7 +3,8 @@
   padding: 0px;
 }
 
-
+/* 
+some font family for the body */
 p , label,div{
   font-family: 'Proza Libre', sans-serif;
 }
@@ -13,10 +14,10 @@ h1 ,h2,nav , a
   font-family: 'Open Sans', sans-serif;
 }
 
-
+/* 
+some placeholder for the form */
 
 input[type="email"] {
-  /* font-family: 'Proza Libre', sans-serif; */
   font-size: 20px;
 }
 
@@ -48,6 +49,10 @@ input[type="email"] {
 }
 
 
+/* 
+start layout for the body */
+
+
 h1{
   text-align: center;
   padding: 18px;
@@ -62,6 +67,14 @@ h1{
  }
 
 
+ p{
+  color: black;
+  text-align: center;
+  font-size: 25px;
+ }
+ 
+
+
 header{
  background-color: rgb(0, 0, 0);
  height: 70px;
@@ -74,6 +87,13 @@ nav{
  padding: 8px;
  text-align: center;
 }
+
+
+#top-href{
+  margin-left: 20px;
+}
+
+
 
 a{
  /* margin-left: 23px; */
@@ -94,38 +114,22 @@ p ,td{
   font-size: 22px;
 }
 
-
-
-
-
-#top-href{
-  margin-left: 20px;
-
-}
+/* 
+home page design css */
 
 .first-section {
- 
-color: white;
- 
-margin: 20px;
- 
-padding: 20px;
- 
-flex-direction: column;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  flex-direction: column;
 }
+
 img {
- display: block;
- margin-left: auto;
- margin-right: auto;
- height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
 }
-
-p{
- color: black;
- text-align: center;
- font-size: 25px;
-}
-
 
 
 p.form{
@@ -163,25 +167,23 @@ form{
 
 }
 
+/* 
+form alignment thing  */
 
 .form-align
 {
   padding: 10px 10px 10px 10px;
-  /* text-align: center; */
   display: flex;
-  /* justify-content: flex-end; */
-  /* padding: .5em; */
 }
 
-.form-align > label {
-  /* padding: 0.5em 1em 0.5em 0; */
+.form-align > label 
+{
   flex: 1;
 }
+
 .form-align > input {
   flex: 2;
 }
-
-
 
 p.about{
   text-align: center;
@@ -194,10 +196,96 @@ section{
 }
 
 
+/* 
+flex direction for the video  */
+
+ .flex-video{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  height:500px;
+}
+
+
+.flex-about {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+div.aboutus {
+  padding: 5px;
+  margin: 10px 45px 13px 42px;
+}
 
 
 
-footer{
+div {
+  padding: 4px;
+  margin: 11px 93px 21px 40px;
+}
+
+
+
+.flex-book {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+/* 
+ for for the booking page */
+
+ tbody
+ {
+   padding: 10px 10px 10px 10px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ table
+ {
+   
+   margin-left: auto; 
+   margin-right: auto;
+ }
+
+ td 
+ {
+   text-align: left;
+   padding: 10px 61px 10px 10px;
+   margin: 16px 38px 60px 69px;
+ }
+
+
+ tr
+ {
+   text-align: center;
+   padding: 10px 10px 10px 10px;
+   margin: 24px 50px 75px 100px;
+ }
+
+ #booknow{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 35px;
+  width: 84px;
+  color:white;
+  background-color: black;
+  border: none;
+ }
+
+
+
+/* 
+some footer design include image and flex direction */
+
+ footer{
   background-color: rgb(0, 0, 0);
   height: 130px;
   position: relative;
@@ -233,91 +321,9 @@ img.footer{
  }
 
 
- .flex-video{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin: 0 auto;
-  display: block;
-  height:500px;
-}
-
-.flex-about {
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  text-align: center;
-}
-
-div.aboutus {
-  padding: 5px;
-  margin: 10px 45px 13px 42px;
-}
 
 
-
-div {
-  padding: 4px;
-  margin: 11px 93px 21px 40px;
-}
-
-
-
-.flex-book {
-  display: flex;
-  flex-direction: row;
-}
-
-#booknow{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 35px;
-  width: 84px;
-  color:white;
-  background-color: black;
-  border: none;
- }
-
-
- td 
- {
-   text-align: left;
-   padding: 10px 61px 10px 10px;
-   margin: 16px 38px 60px 69px;
- }
-
-
- tr
- {
-   text-align: center;
-   padding: 10px 10px 10px 10px;
-   margin: 24px 50px 75px 100px;
- }
-
- 
- tbody
- {
-   /* text-align: center; */
-   padding: 10px 10px 10px 10px;
-   margin-left: auto;
-   margin-right: auto;
- }
-
- table
- {
-   
-   margin-left: auto; 
-   margin-right: auto;
- }
-
-
-
-
-
-
-
- /* some media query */
+ /* some media query  to fit for all pages*/
 
 @media only screen and (max-width: 1127px) {
 
@@ -334,8 +340,6 @@ div {
     height: 414px;
   }
 
-
- 
 }
 
 @media only screen and (max-width: 816px) {
@@ -356,10 +360,6 @@ div {
 }
 
 
-
-
-
-
 @media only screen and (max-width: 750px) {
 
    .flex-about {
@@ -367,7 +367,6 @@ div {
   }
 
 }
-
 
 
 @media only screen and (max-width: 670px) {
@@ -382,7 +381,6 @@ div {
     top:20%;
    }
 
- 
 
    form {
     height: 473px;
@@ -416,6 +414,7 @@ div {
   nav{
     height: 60px;
    }
+
   label{
     font-size:12px;
   }
