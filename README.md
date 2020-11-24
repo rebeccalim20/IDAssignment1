@@ -74,7 +74,7 @@ contacting with the band regarding on their interest by contacting with the band
 - https://3.bp.blogspot.com/-o3hP9EYQWqE/UGqeWGXw6sI/AAAAAAAABNU/pTQIiZRE6rU/s1600/mark
 
 
-##### my website and github link
+**my website and github link**
 
 - https://rebeccalim20.github.io/bandwebsite/
 - https://github.com/rebeccalim20/bandwebsite
