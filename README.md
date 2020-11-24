@@ -44,17 +44,17 @@ contacting with the band regarding on their interest by contacting with the band
 
 ## Testing 
 
-1. Contact form page  :  
- 1. There is implemented the required to fill up the details in order to be able to click submit .
- 2. If email does not include e.g. @ or .com  it will prompt the user again for input
- 3. User required to key in the messsage to be able to submit.
+- Contact form page  :  
+  - There is implemented the required to fill up the details in order to be able to click submit .
+  - If email does not include e.g. @ or .com  it will prompt the user again for input
+  - User required to key in the messsage to be able to submit.
 
-2. Responsive website design :  
- 1. Implemented the flexbox to fit the browser which allow the user to view them in different devices
- 2. On the first page the form page scaled down according to the alignment and image were scaled down , form were scaled down as well
- 3. On the second page it include the booking , it is align in row , and when the screen is scaled and it will be  align as row 
- 4. On the third page of the size of the video scaled down fit the device of the device. Some parts of the video not scaled properly and need to fix the scaling neatly 
- 5. On the fourth  page is regarding more about the band , text scaled down and align in column when it reaches certain sizing , the image scaled down as well.
+- Responsive website design :  
+  - Implemented the flexbox to fit the browser which allow the user to view them in different devices
+  - On the first page the form page scaled down according to the alignment and image were scaled down , form were scaled down as well
+  - On the second page it include the booking , it is align in row , and when the screen is scaled and it will be  align as row 
+  - On the third page of the size of the video scaled down fit the device of the device. Some parts of the video not scaled properly and need to fix the scaling neatly 
+  - On the fourth  page is regarding more about the band , text scaled down and align in column when it reaches certain sizing , the image scaled down as well.
 
 
 
