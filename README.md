@@ -49,8 +49,7 @@ contacting with the band regarding on their interest by contacting with the band
  2. If email does not include e.g. @ or .com  it will prompt the user again for input
  3. User required to key in the messsage to be able to submit.
 
-
-1. Responsive website design :  
+2. Responsive website design :  
  1. Implemented the flexbox to fit the browser which allow the user to view them in different devices
  2. On the first page the form page scaled down according to the alignment and image were scaled down , form were scaled down as well
  3. On the second page it include the booking , it is align in row , and when the screen is scaled and it will be  align as row 
