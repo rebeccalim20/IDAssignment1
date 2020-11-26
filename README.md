@@ -35,6 +35,7 @@ contacting with the band regarding on their interest by contacting with the band
 ###  Additional Features (Consideration)
 
 - Add interactive website design to the website page , to make the page looks more fun and interesting 
+- Implement and redesign the navigation bar design and support for different devices
 - Implement the features of the form by using php .
 
 ## Technology used 
