@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  /* margin: 0px; */
   padding: 0px;
 }
 
@@ -55,6 +55,7 @@ start layout for the body */
 
 h1{
   text-align: center;
+  padding: 18px;
   color:white;
  }
  
@@ -62,7 +63,7 @@ h1{
  h1.intro ,h2{
    color: black;
    text-align: center;
-   /* margin: 12px; */
+   margin: 12px;
  }
 
 
@@ -104,7 +105,7 @@ label
   /* text-align: center; */
 }
 
-p ,td{
+p,td{
   font-size: 22px;
 }
 
@@ -282,6 +283,47 @@ div {
  }
 
 
+ .button {
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: -5px;
+  padding: 20px;
+  width: 163px;
+  height: 52px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
 
 /* 
 some footer design include image and flex direction */
@@ -304,9 +346,9 @@ p.footer{
  
  
 img.footer{
-  /* width:50px; */
-  /* height:50px; */
-  /* margin: 0px 10px 10px 20px; */
+  width:50px;
+  height:50px;
+  margin: 0px 10px 10px 20px;
  }
  
 
@@ -315,13 +357,21 @@ img.footer{
   display: flex;
   flex-direction: row;
   text-align: center;
-  /* margin-top: 0px; */
-  /* margin-bottom: 0px; */
-  left: 41%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  left:45%;
   top:20%;
  }
 
 
+iframe{
+  border-width: 0px;
+}
+
+ /* .flex-video iframe, .flex-video object, .flex-video embed {
+  width: 97%;
+  height: 38%;
+} */
 
 
  /* some media query  to fit for all pages*/
@@ -334,7 +384,7 @@ img.footer{
    text-align: center;
    /* margin: 0 auto; */
    display: block;
-   height: 681px;
+   height:700px;
   }
 
   img {
@@ -365,6 +415,7 @@ img.footer{
 
    .flex-about {
     flex-direction: column;
+    margin: 10px 10px 10px 10px;
   }
 
 }
@@ -374,11 +425,11 @@ img.footer{
 
   .flex-video iframe, .flex-video object, .flex-video embed {
     width: 97%;
-    height: 46%;
+    height: 38%;
   }
 
   .flex-container {
-    left: 15%;
+    left: 25%;
     top:20%;
    }
 
@@ -410,11 +461,15 @@ img.footer{
     height: 540px;
   }
 
-  footer {
-    
-    height: 131px;
+  .flex-container {
+    left: 5%;
+    top: 20%;
+}
 
-  }
+
+footer {
+  height: 147px;
+}
  
 }
 
@@ -436,7 +491,7 @@ img.footer{
 
 
   section{
-    height: 1200px;
+    height: 1270px;
   }
 
   .flex-video {
@@ -447,7 +502,7 @@ img.footer{
    height: 368px;
 }
    footer {
-  height: 165px;
+  height: 130px;
 }
 
 .flex-container {
