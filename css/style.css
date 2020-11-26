@@ -55,7 +55,6 @@ start layout for the body */
 
 h1{
   text-align: center;
-  padding: 18px;
   color:white;
  }
  
@@ -63,7 +62,7 @@ h1{
  h1.intro ,h2{
    color: black;
    text-align: center;
-   margin: 12px;
+   /* margin: 12px; */
  }
 
 
@@ -289,7 +288,7 @@ some footer design include image and flex direction */
 
  footer{
   background-color: rgb(0, 0, 0);
-  height: 130px;
+  height: 131px;
   position: relative;
   /* width: 102%; */
  }
@@ -335,7 +334,7 @@ img.footer{
    text-align: center;
    /* margin: 0 auto; */
    display: block;
-   height:700px;
+   height: 681px;
   }
 
   img {
