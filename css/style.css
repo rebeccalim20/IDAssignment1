@@ -374,11 +374,11 @@ img.footer{
 
   .flex-video iframe, .flex-video object, .flex-video embed {
     width: 97%;
-    height: 38%;
+    height: 46%;
   }
 
   .flex-container {
-    left: 1%;
+    left: 10%;
     top:20%;
    }
 
@@ -408,6 +408,12 @@ img.footer{
 
   form {
     height: 540px;
+  }
+
+  footer {
+    
+    height: 131px;
+
   }
  
 }
@@ -441,7 +447,7 @@ img.footer{
    height: 368px;
 }
    footer {
-  height: 130px;
+  height: 165px;
 }
 
 .flex-container {
