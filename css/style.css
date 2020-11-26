@@ -379,7 +379,7 @@ img.footer{
   }
 
   .flex-container {
-    left: 17%;
+    left: 1%;
     top:20%;
    }
 
@@ -402,7 +402,8 @@ img.footer{
 @media only screen and (max-width: 399px) {
 
   img {
-    height: 265px;
+    height: 238px;
+    width: 256px;
   }
 
   form {
@@ -444,12 +445,12 @@ img.footer{
 }
 
 .flex-container {
-  left: 17%;
+  left: 0%;
 }
 
 img.footer {
-  width: 30px;
-  height: 30px;
+  width: 46px;
+  height: 46px;
 }
 
 
