@@ -137,7 +137,7 @@ p.form{
 
 form{
  background-color:#303030;
- height: 476px;
+ height: 509px;
 }
 
 #inputbox{
@@ -359,7 +359,7 @@ img.footer{
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
-  left:45%;
+  left: 38%;
   top:20%;
  }
 
@@ -391,6 +391,11 @@ iframe{
     height: 414px;
   }
 
+  div.aboutus {
+    padding: 5px;
+    margin: 10px 45px 13px 42px;
+  }
+
 }
 
 @media only screen and (max-width: 816px) {
@@ -405,7 +410,7 @@ iframe{
 
   section
   {
-    height: 1110px;
+    height: 1183px;
   }
 
 }
@@ -425,7 +430,7 @@ iframe{
 
   .flex-video iframe, .flex-video object, .flex-video embed {
     width: 97%;
-    height: 38%;
+    height: 49%;
   }
 
   .flex-container {
@@ -435,8 +440,12 @@ iframe{
 
 
    form {
-    height: 502px;
+    height: 515px;
   }
+
+  footer {
+    height: 147px;
+}
  
 }
 
@@ -470,6 +479,19 @@ iframe{
 footer {
   height: 147px;
 }
+
+
+                               
+.flex-video {
+    height: 595px;
+}
+
+
+.flex-video iframe, .flex-video object, .flex-video embed {
+  width: 95%;
+  height: 40%;
+}
+
  
 }
 
@@ -502,7 +524,7 @@ footer {
    height: 368px;
 }
    footer {
-  height: 130px;
+  height: 143px;
 }
 
 .flex-container {
