@@ -401,10 +401,11 @@ img.footer{
 
 @media only screen and (max-width: 399px) {
 
-  img {
-    /* height: 288px; */
-    /* width: 209px; */
-  }
+
+  img.home {
+    height: 243px;
+    width: 295px;
+   }
 
   form {
     height: 540px;
