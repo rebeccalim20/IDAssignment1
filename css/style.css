@@ -89,14 +89,9 @@ nav{
 }
 
 
-#top-href{
-  margin-left: 20px;
-}
-
-
 
 a{
- /* margin-left: 23px; */
+ margin-left: 17px;
  color: rgb(255, 255, 255);
  font-weight: bold;
 }
@@ -149,9 +144,16 @@ form{
  height: 52px;
  width: 237px;
 }
+
+#emailinputbox
+{
+ height: 52px;
+ width: 184px;
+}
+
 #messageinputbox{
  height: 148px;
- width: 505px;
+ /* width: 491px; */
 }
 
 #submit{
