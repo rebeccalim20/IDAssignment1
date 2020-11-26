@@ -315,9 +315,9 @@ img.footer{
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  left:45%;
+  /* margin-top: 0px; */
+  /* margin-bottom: 0px; */
+  left: 41%;
   top:20%;
  }
 
@@ -378,7 +378,7 @@ img.footer{
   }
 
   .flex-container {
-    left: 33%;
+    left: 15%;
     top:20%;
    }
 
