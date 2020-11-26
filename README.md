@@ -4,7 +4,6 @@ This websites consist  more on the band westlife webpage . It is layout in a ver
 
 
 # bandwebsite
-## Assignment Project 1 (20%)  Front-End Development 
 
 ## Design Process
 
@@ -77,9 +76,8 @@ contacting with the band regarding on their interest by contacting with the band
 
 **my website and github link**
 
-- https://rebeccalim20.github.io/bandwebsite/
-- https://github.com/rebeccalim20/bandwebsite
-
+- https://github.com/rebeccalim20/IDAssignment1
+- https://rebeccalim20.github.io/IDAssignment1/
 **adobe xd :** 
 - https://xd.adobe.com/view/77b1c8a5-90e2-43a0-bc85-eee1aec2cffc-22e2/screen/a9b491f4-c301-4e21-b704-785e9e8f0d42/
 - https://xd.adobe.com/view/753e8448-8645-463d-bf01-d861f7fd77b7-206d/
