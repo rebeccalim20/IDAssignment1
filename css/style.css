@@ -402,8 +402,8 @@ img.footer{
 @media only screen and (max-width: 399px) {
 
   img {
-    height: 238px;
-    width: 256px;
+    /* height: 288px; */
+    /* width: 209px; */
   }
 
   form {

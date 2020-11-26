@@ -80,5 +80,4 @@ contacting with the band regarding on their interest by contacting with the band
 - https://rebeccalim20.github.io/IDAssignment1/
 
 **adobe xd :** 
-- https://xd.adobe.com/view/77b1c8a5-90e2-43a0-bc85-eee1aec2cffc-22e2/screen/a9b491f4-c301-4e21-b704-785e9e8f0d42/
-- https://xd.adobe.com/view/753e8448-8645-463d-bf01-d861f7fd77b7-206d/
+- https://xd.adobe.com/view/fcda15e3-d7b9-4a6a-a9b9-90face4a405f-a989/
