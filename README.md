@@ -1,6 +1,6 @@
 # The westlife band page design
 
-This websites consist  more on the band westlife webpage . It is layout in a very neat way and fits the sizing of the screen 
+- This websites consist  more on catering on the fan for company and booking for the band westlife concerts.User able to browse through the web according to different sizing of their applications. The layout is formated in a clean and neat formated. Some part of the website include minor interactive navigation, which will attract user attention on them. 
 
 
 # bandwebsite
@@ -15,8 +15,7 @@ This websites consist  more on the band westlife webpage . It is layout in a ver
 - looking for a band for booking regarding of their own  concert  and  allowing the company to view their past work , musics
 contacting with the band regarding on their interest by contacting with the band .
 
-- By building the website it will be able to cater to its target audience  and allowing the user to be interested in the work that they had.
-
+- I wanted to make the website looks clean and easy for user to read them and thus , created the website that looks simple and easy for users to browse them , using simple colour scheme. Also i keep my design in a very consistency and very clean manner , with scaling of the text accordingly to different header and paragraph. User will be able to view them easily  so that it will be cater for their needs. By building the website it will be able to attract the audience for their needs and allowing the user to be interested in the work that the band had worked on . I also wanted my user to be able to browse the web on different devices  and added responsive design which will fit to their devices when they browse through the web.
 
 
 ## Features
@@ -63,8 +62,11 @@ contacting with the band regarding on their interest by contacting with the band
 
 
 
+## Credits
 
-## Attribute all external source code used : 
+### Content
+- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
 - Code from https://www.w3schools.com/ 
 
 - https://www.digitalocean.com/community/tutorials/css-styling-placeholder-text
@@ -73,11 +75,21 @@ contacting with the band regarding on their interest by contacting with the band
 
 - Interactive  part of the layout : https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08
 
-**some design and reference from**
 
-- design reference (inspiration) from  : https://www.westlife.com/
-- Images from : https://en.wikipedia.org/wiki/Amazing_(Westlife_song)
+### Media
+- The photos used in this site were obtained from
+- Video from : westlife https://www.youtube.com/channel/UCtd_b-dF7lHzDJeDm4fJjHQ
+- images : 
+- https://i.pinimg.com/originals/5f/e4/d0/5fe4d07a72f05a642fb3928bb7f76c68.jpg
+- https://i.pinimg.com/236x/85/d2/e2/85d2e28adadf260b941cb8e25f1dd197.jpg
+- https://en.wikipedia.org/wiki/Amazing_(Westlife_song)
 - https://3.bp.blogspot.com/-o3hP9EYQWqE/UGqeWGXw6sI/AAAAAAAABNU/pTQIiZRE6rU/s1600/mark
+- https://blog.30shine.com/wp-content/uploads/2019/01/kieu-toc-nam-westlife-nicky.jpg
+- icons from : https://www.iconfinder.com/
+
+### Acknowledgements
+
+- I received inspiration for this project westlife website https://www.westlife.com/
 
 
 **my website and github link**
