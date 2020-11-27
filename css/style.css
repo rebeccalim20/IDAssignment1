@@ -48,6 +48,66 @@ input[type="email"] {
   font-size: 13px;
 }
 
+/* 
+scrollbar design */
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(146, 146, 146); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(100, 100, 100); 
+  border-radius: 10px;
+}
+
+
+ p ,h2,td {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
 
 /* 
 start layout for the body */
@@ -276,6 +336,9 @@ div {
    margin: 24px 50px 75px 100px;
  }
 
+/* 
+ booking page of the layout */
+
  .booknow{
   display: block;
   margin-left: auto;
@@ -291,7 +354,7 @@ div {
  }
 
  .booknow:hover {
-  background-color: rgb(100, 100, 100);
+  background-color: rgb(53, 53, 53);
 }
 
 
@@ -342,11 +405,6 @@ p.footer{
  }
  
  
-img.footer{
-  width:50px;
-  height:50px;
-  margin: 0px 10px 10px 20px;
- }
  
 
 .flex-container {
@@ -360,6 +418,24 @@ img.footer{
   top:20%;
  }
 
+/* 
+ transition for image at the footer  */
+
+ .imagefooter
+ {
+  width: 50px; 
+  height:50px; 
+  margin-left: 17px;
+  transition-duration: 0.2s;
+
+ }
+ .imagefooter:hover {
+  padding-top: 10px;
+  transition-duration: 0.2s;
+}
+
+
+ 
 
 iframe{
   border-width: 0px;
@@ -521,22 +597,19 @@ footer {
    height: 368px;
 }
    footer {
-  height: 143px;
+  height: 193px;
 }
 
 .flex-container {
-  left: 0%;
+  /* left: -12%; */
+  margin-left: auto;
 }
 
-img.footer {
-  width: 46px;
-  height: 46px;
-}
 
 
 img.home {
-  height: 198px;
-  width: 236px;
+  height: 175px;
+  width: 181px;
  }
 
 

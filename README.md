@@ -24,9 +24,9 @@ contacting with the band regarding on their interest by contacting with the band
 ###  Exisitng Features
 
 
-- **All page layout consist of the header design (band name),navigation bar to all different pages , footer design (include the link to the band social media)**
+- **All page layout consist of the header design (band name),navigation bar to all different pages , footer design (include the link to the band social media) (for the view social media included animation when user interacted) (All pages included changes the colour of the scrollbar)**
 - first page of the website consist of album design of the band and include the form page design  , included the required form for the user to fill up
-- the second page of the website include the book page design , time slot , location and  more on allowing the user to book their tickets to the live concert of the band
+- the second page of the website include the book page design , time slot , location and  more on allowing the user to book their tickets to the live concert of the band . (Include the design for animated hover button for interactive view )
 - the third page of the website include the music video of the band , regarding on their work video.
 - the fourth page of the website include the band information , the members name  and more about the band history regarding when they started.
 
@@ -34,12 +34,14 @@ contacting with the band regarding on their interest by contacting with the band
 ###  Additional Features (Consideration)
 
 - Add interactive website design to the website page , to make the page looks more fun and interesting 
-- Implement and redesign the navigation bar design and support for different devices
+- Implement and redesign the navigation bar design and support for different devices (May include a mobile navigation menu)
+- changing the design of the mouse , may include more fun interactive features
+- Include some features for fading of the pages or the text design.
 - Implement the features of the form by using php .
 
 ## Technology used 
 
-- normalize.css
+- normalize.css (https://necolas.github.io/normalize.css/)
 
 
 ## Testing 
@@ -50,7 +52,7 @@ contacting with the band regarding on their interest by contacting with the band
   - User required to key in the messsage to be able to submit.
 
 - Responsive website design :  
-  - Implemented the flexbox to fit the browser which allow the user to view them in different devices
+  - Implemented the flexbox to fit the browser which allow the user to view them in different devices , some parts of the layout may not looks too well fit align properly 
   - On the first page the form page scaled down according to the alignment and image were scaled down , form were scaled down as well
   - On the second page it include the booking , it is align in row , and when the screen is scaled and it will be  align as row 
   - On the third page of the size of the video scaled down fit the device of the device. Some parts of the video not scaled properly and need to fix the scaling neatly 
@@ -67,6 +69,7 @@ contacting with the band regarding on their interest by contacting with the band
 
 - contact form : https://www.quackit.com/html/html_editors/scratchpad/?example=/css/flexbox/tutorial/align_form_elements_with_flexbox_example_2
 
+- Interactive  part of the layout : https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08
 **some design and reference from**
 
 - design reference (inspiration) from  : https://www.westlife.com/
