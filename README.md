@@ -70,6 +70,7 @@ contacting with the band regarding on their interest by contacting with the band
 - contact form : https://www.quackit.com/html/html_editors/scratchpad/?example=/css/flexbox/tutorial/align_form_elements_with_flexbox_example_2
 
 - Interactive  part of the layout : https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08
+
 **some design and reference from**
 
 - design reference (inspiration) from  : https://www.westlife.com/
