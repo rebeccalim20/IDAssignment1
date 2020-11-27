@@ -17,6 +17,9 @@ contacting with the band regarding on their interest by contacting with the band
 
 - I wanted to make the website looks clean and easy for user to read them and thus , created the website that looks simple and easy for users to browse them , using simple colour scheme. Also i keep my design in a very consistency and very clean manner , with scaling of the text accordingly to different header and paragraph. User will be able to view them easily  so that it will be cater for their needs. By building the website it will be able to attract the audience for their needs and allowing the user to be interested in the work that the band had worked on . I also wanted my user to be able to browse the web on different devices  and added responsive design which will fit to their devices when they browse through the web.
 
+**adobe xd :** 
+- https://xd.adobe.com/view/fcda15e3-d7b9-4a6a-a9b9-90face4a405f-a989/
+
 
 ## Features
 
@@ -42,10 +45,10 @@ contacting with the band regarding on their interest by contacting with the band
 
 ## Technology used 
 
-- normalize.css (https://necolas.github.io/normalize.css/)
-- HTML 
-- CSS
-- ADOBE XD
+1. normalize.css (https://necolas.github.io/normalize.css/)
+2. HTML 
+3. CSS
+4. ADOBE XD
 
 
 ## Testing 
@@ -63,13 +66,13 @@ contacting with the band regarding on their interest by contacting with the band
   - On the fourth  page is regarding more about the band ,The image and text were group as row . The  text scaled down and align in column when it reaches certain sizing , the image scaled down as well according to different width.
   
 -  For book now (directing button on book now page):
-  - When the mouse is being hover on the design it will change to a lighter dark black coloured
-  - It will shows the hover of the text design 
-  - It will direct user to the booking page when user click on the book now
+   - When the mouse is being hover on the design it will change to a lighter dark black coloured
+   - It will shows the hover of the text design 
+   - It will direct user to the booking page when user click on the book now
   
 -  For footer (Social media icon):
-  - When the icon was being click it will direct user to different website perspectively (According to different social media perspectively)
-  - The icon was being align properly align in row
+   - When the icon was being click it will direct user to different website perspectively (According to different social media perspectively)
+   - The icon was being align properly align in row
  
  
 
