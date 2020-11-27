@@ -12,7 +12,7 @@ This websites consist  more on the band westlife webpage . It is layout in a ver
 - latest album and their videos .
 
 - For company ,public :
-- looking for a band for booking regarding of their own  concert  and  allwing the company to view their past work , musics
+- looking for a band for booking regarding of their own  concert  and  allowing the company to view their past work , musics
 contacting with the band regarding on their interest by contacting with the band .
 
 - By building the website it will be able to cater to its target audience  and allowing the user to be interested in the work that they had.
@@ -24,9 +24,11 @@ contacting with the band regarding on their interest by contacting with the band
 ###  Exisitng Features
 
 
-- **All page layout consist of the header design (band name),navigation bar to all different pages , footer design (include the link to the band social media) (for the view social media included animation when user interacted) (All pages included changes the colour of the scrollbar)(The content of the pages of the text include of fading effect of the text design )**
+- **All page layout consist of the header design (band name),navigation bar to all different pages , footer design (include the link to the band social media) (for the view social media included animated hover when user interacted) (All pages included changes the colour of the scrollbar)**
+- Added two fonts pair to the page 
+- Pages were align properly (Accordingly)
 - first page of the website consist of album design of the band and include the form page design  , included the required form for the user to fill up
-- the second page of the website include the book page design , time slot , location and  more on allowing the user to book their tickets to the live concert of the band . (Include the design for animated hover button for interactive view )
+- the second page of the website include the book page design , time slot , location and  more on allowing the user to book their tickets to the live concert of the band . (Include the design for animated hover button for interactive view for book now ) the text include of fading effect of the text design when the browser refresh )
 - the third page of the website include the music video of the band , regarding on their work video.
 - the fourth page of the website include the band information , the members name  and more about the band history regarding when they started.
 
@@ -54,9 +56,9 @@ contacting with the band regarding on their interest by contacting with the band
 - Responsive website design :  
   - Implemented the flexbox to fit the browser which allow the user to view them in different devices , some parts of the layout may not looks too well fit align properly 
   - On the first page the form page scaled down according to the alignment and image were scaled down , form were scaled down as well
-  - On the second page it include the booking , it is align in row , and when the screen is scaled and it will be  align as row 
+  - On the second page it include the booking , it is align in row , and when the screen is scaled and it will be  align as column 
   - On the third page of the size of the video scaled down fit the device of the device. Some parts of the video not scaled properly and need to fix the scaling neatly 
-  - On the fourth  page is regarding more about the band , text scaled down and align in column when it reaches certain sizing , the image scaled down as well.
+  - On the fourth  page is regarding more about the band , The  text scaled down and align in column when it reaches certain sizing , the image scaled down as well according to different width.
 
 
 
