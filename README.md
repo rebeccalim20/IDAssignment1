@@ -23,16 +23,21 @@ contacting with the band regarding on their interest by contacting with the band
 
 ## Features
 
+1. First page: is include the  album design of the band and include the form page design at the bottom
+2. Second page: is include the design of the day , location and allowing the user to book their tickets to the live concert of the band . 
+3. Third page: of the website include the title and the music video of the band , regarding on their work video.
+4. Fourth page: is "About Us" which shows the layout on the boyband  include the band information , include some description of the member and the image of the member. the members name  and more about the band history regarding when they started.
+
 ###  Exisitng Features
 
+**All page layout consist of the header design (band name),navigation bar direct to  all different pages , footer design (include the link to the band social media) (for the view social media included animated hover when user interacted) (All pages included changes the colour of the scrollbar)**
 
-- **All page layout consist of the header design (band name),navigation bar to all different pages , footer design (include the link to the band social media) (for the view social media included animated hover when user interacted) (All pages included changes the colour of the scrollbar)**
 - Added two fonts pair to the page 
-- Pages were align properly (Accordingly)
-- first page of the website consist of album design of the band and include the form page design  , included the required form for the user to fill up. User able to fill up the form part of the layout and able to show sign of validation. 
-- the second page of the website include the book page design , time slot , location and  more on allowing the user to book their tickets to the live concert of the band . (Include the design for animated hover button for interactive view for book now ) the text include of fading effect of the text design when the browser refresh )
-- the third page of the website include the music video of the band , regarding on their work video.
-- the fourth page of the website include the band information , the members name  and more about the band history regarding when they started.
+- Pages were align properly (Accordingly and fit for different browser)
+- first page of the website consist of album design of the band and include the form page design  , included the required form for the user to fill up. User able to fill up the form part of the layout and able to show sign of validation when they input wrongly or did not input the text when they click submit.
+- the second page of the website include the design for animated hover button for interactive view for book now the text include of fading effect of the text design when the browser refresh. It will also direct user to the page when user click the button
+- Pages will show fading effect of the text when user refresh or went to the link for the content
+
 
 
 ###  Additional Features (Consideration)
@@ -73,6 +78,7 @@ contacting with the band regarding on their interest by contacting with the band
 -  For footer (Social media icon):
    - When the icon was being click it will direct user to different website perspectively (According to different social media perspectively)
    - The icon was being align properly align in row
+   - When the icon is being hover it will show animated (move upwards slightly)
  
  
 
