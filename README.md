@@ -8,8 +8,7 @@
 ## Design Process
 
 - Target audience : Fans , Public , company 
-- For fans : It will allow them  to know more about westlife and book a music show for their upcoming concert or show. It is also helpful for the public to check out their
-- latest album and their videos .
+- For fans : It will allow them  to know more about westlife and book a music show for their upcoming concert or show. It is also helpful for the public to check out their latest album and their videos .
 
 - For company ,public :
 - looking for a band for booking regarding of their own  concert  and  allowing the company to view their past work , musics
@@ -24,19 +23,23 @@ contacting with the band regarding on their interest by contacting with the band
 ## Features
 
 1. First page: is include the  album design of the band and include the form page design at the bottom
-2. Second page: is include the design of the day , location and allowing the user to book their tickets to the live concert of the band . 
+2. Second page: is include the day , location and allowing the user to book their tickets to the live concert of the band . 
 3. Third page: of the website include the title and the music video of the band , regarding on their work video.
 4. Fourth page: is "About Us" which shows the layout on the boyband  include the band information , include some description of the member and the image of the member. the members name  and more about the band history regarding when they started.
 
 ###  Exisitng Features
 
-**All page layout consist of the header design (band name),navigation bar direct to  all different pages , footer design (include the link to the band social media) (for the view social media included animated hover when user interacted) (All pages included changes the colour of the scrollbar)**
+1. All page layout consist of the header design (band name)
+2. Navigation bar direct to  all different pages
+3. Footer design (include social media which direct to different social media perspectively, it will shows the icon move a little upwards when user hover on the social media) 
+4. All pages included changes the colour of the scrollbar
+5. Added two fonts pair to the page 
+6. Pages were align properly (Accordingly and fit for different browser)
 
-- Added two fonts pair to the page 
-- Pages were align properly (Accordingly and fit for different browser)
-- first page of the website consist of album design of the band and include the form page design  , included the required form for the user to fill up. User able to fill up the form part of the layout and able to show sign of validation when they input wrongly or did not input the text when they click submit.
-- the second page of the website include the design for animated hover button for interactive view for book now the text include of fading effect of the text design when the browser refresh. It will also direct user to the page when user click the button
-- Pages will show fading effect of the text when user refresh or went to the link for the content
+- First page of the website consist of album design of the band and include the form page design  , included the required form for the user to fill up. User able to fill up the form part of the layout and able to show sign of validation when they input wrongly or did not input the text when they click submit.
+- Second page of the website the text include of fading effect of the text design when the browser refresh/the page were selected. The button include the design for animated hover button for interactive view for book now .It will also direct user to the page when user click the button
+- Third Page of the website shows video , playable video.
+- Fourth page , consist of the text layout fading in effect when user selected the page
 
 
 
@@ -57,6 +60,9 @@ contacting with the band regarding on their interest by contacting with the band
 
 
 ## Testing 
+
+- Navigation bar  :  
+  - user able to direct to different pages when they click the pages that they selected.
 
 - Contact form page  :  
   - There is implemented the required to fill up the details in order to be able to click submit .
