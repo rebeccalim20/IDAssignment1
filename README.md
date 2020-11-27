@@ -24,7 +24,7 @@ contacting with the band regarding on their interest by contacting with the band
 ###  Exisitng Features
 
 
-- **All page layout consist of the header design (band name),navigation bar to all different pages , footer design (include the link to the band social media) (for the view social media included animation when user interacted) (All pages included changes the colour of the scrollbar)**
+- **All page layout consist of the header design (band name),navigation bar to all different pages , footer design (include the link to the band social media) (for the view social media included animation when user interacted) (All pages included changes the colour of the scrollbar)(The content of the pages of the text include of fading effect of the text design )**
 - first page of the website consist of album design of the band and include the form page design  , included the required form for the user to fill up
 - the second page of the website include the book page design , time slot , location and  more on allowing the user to book their tickets to the live concert of the band . (Include the design for animated hover button for interactive view )
 - the third page of the website include the music video of the band , regarding on their work video.
