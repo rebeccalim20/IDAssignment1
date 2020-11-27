@@ -26,7 +26,7 @@ contacting with the band regarding on their interest by contacting with the band
 - **All page layout consist of the header design (band name),navigation bar to all different pages , footer design (include the link to the band social media) (for the view social media included animated hover when user interacted) (All pages included changes the colour of the scrollbar)**
 - Added two fonts pair to the page 
 - Pages were align properly (Accordingly)
-- first page of the website consist of album design of the band and include the form page design  , included the required form for the user to fill up
+- first page of the website consist of album design of the band and include the form page design  , included the required form for the user to fill up. User able to fill up the form part of the layout and able to show sign of validation. 
 - the second page of the website include the book page design , time slot , location and  more on allowing the user to book their tickets to the live concert of the band . (Include the design for animated hover button for interactive view for book now ) the text include of fading effect of the text design when the browser refresh )
 - the third page of the website include the music video of the band , regarding on their work video.
 - the fourth page of the website include the band information , the members name  and more about the band history regarding when they started.
@@ -34,15 +34,18 @@ contacting with the band regarding on their interest by contacting with the band
 
 ###  Additional Features (Consideration)
 
-- Add interactive website design to the website page , to make the page looks more fun and interesting 
-- Implement and redesign the navigation bar design and support for different devices (May include a mobile navigation menu)
-- changing the design of the mouse , may include more fun interactive features
-- Include some features for fading of the pages or the text design.
-- Implement the features of the form by using php .
+1. Add interactive website design to the website page , to make the page looks more fun and interesting 
+2. Implement and redesign the navigation bar design and support for different devices (May include a mobile navigation menu)
+3. changing the design of the mouse , may include more fun interactive features
+4. Include some features for fading of the pages or the text design.
+5. Implement the features of the form by using php .
 
 ## Technology used 
 
 - normalize.css (https://necolas.github.io/normalize.css/)
+- HTML 
+- CSS
+- ADOBE XD
 
 
 ## Testing 
@@ -55,9 +58,20 @@ contacting with the band regarding on their interest by contacting with the band
 - Responsive website design :  
   - Implemented the flexbox to fit the browser which allow the user to view them in different devices , some parts of the layout may not looks too well fit align properly 
   - On the first page the form page scaled down according to the alignment and image were scaled down , form were scaled down as well
-  - On the second page it include the booking , it is align in row , and when the screen is scaled and it will be  align as column 
-  - On the third page of the size of the video scaled down fit the device of the device. Some parts of the video not scaled properly and need to fix the scaling neatly 
-  - On the fourth  page is regarding more about the band , The  text scaled down and align in column when it reaches certain sizing , the image scaled down as well according to different width.
+  - On the second page it include the booking , it is align in row , and when the screen is scaled and it will be  align as column , and it fir for the deivces accordingly.
+  - On the third page of the size of the video scaled down fit the device of the device. The video is being scaled down according to different devices.
+  - On the fourth  page is regarding more about the band ,The image and text were group as row . The  text scaled down and align in column when it reaches certain sizing , the image scaled down as well according to different width.
+  
+-  For book now (directing button on book now page):
+  - When the mouse is being hover on the design it will change to a lighter dark black coloured
+  - It will shows the hover of the text design 
+  - It will direct user to the booking page when user click on the book now
+  
+-  For footer (Social media icon):
+  - When the icon was being click it will direct user to different website perspectively (According to different social media perspectively)
+  - The icon was being align properly align in row
+ 
+ 
 
 
 
@@ -65,7 +79,6 @@ contacting with the band regarding on their interest by contacting with the band
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 - Code from https://www.w3schools.com/ 
 
